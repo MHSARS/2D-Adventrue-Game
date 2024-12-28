@@ -1,33 +1,74 @@
 2D Adventure Game
 
-This is a 2D adventure game developed using Java. The game features a tile-based world, various interactive objects, a user interface, and sound effects. 
-The game is designed to run smoothly at 60 FPS and provides an engaging experience through dynamic interactions and an intuitive interface.
 
-Features:
-- Tile-Based World: A dynamic game world with different tile types (grass, wall, water, etc.) and collision detection.
-- Entity Management: Interactable objects (e.g., keys, doors, chests) with specific properties and behaviors.
-- User Interface: Displays essential game information, including collected items, game time, and messages.
-- Sound Integration: Background music and sound effects enhance the gaming experience.
-- Collision Detection: Accurate collision handling between the player, objects, and tiles.
+A classic top-down 2D adventure game built in Java, featuring tile-based movement, object interaction, and retro-style graphics.
 
-Directory Structure:
-- src/main: Contains the main game classes including GamePanel, Main, and Sound.
-- src/object: Contains classes for different game objects (e.g., OBJ_Key, OBJ_Door).
-- src/tile: Contains tile-related classes (Tile, TileManager).
-- resources/sound: Directory for sound files.
-- resources/tiles: Directory for tile images.
-- resources/objects: Directory for object images.
-- maps: Directory for map files (e.g., world01.txt).
-  
-Code Overview:
-- GamePanel: Manages the game’s main rendering and update loop. Handles user input and game state updates.
-- KeyHandler: Processes keyboard input for player movement and debugging features.
-- UI: Manages the user interface, including displaying game information and messages.
-- Sound: Handles background music and sound effects.
-- SuperObject and Derived Classes: Define various interactive objects in the game.
-- TileManager: Loads and renders tiles, handles tile collisions and map loading.
-- Skills and Technologies
-- Java: Core programming language used for development.
-- Java Swing and AWT: Libraries used for graphics and user interface.
-- BufferedReader: For loading map data.
-- ImageIO: For loading and processing images.
+🎮 Features
+- Tile-based world exploration
+- Player movement with collision detection
+- Collectable items (keys, boots)
+- Interactive objects (doors, chests)
+- Background music and sound effects
+- Real-time UI displaying inventory and game time
+- Debug mode for development
+
+🔧 Prerequisites
+- Java JDK 17 or higher
+- Eclipse IDE (recommended) or any Java IDE
+
+🚀 Installation
+1. Clone the repository
+   git clone https://github.com/yourusername/2d-adventure-game.git
+2. Open the project in Eclipse:
+   - File -> Import -> Existing Projects into Workspace
+   - Select the cloned repository folder
+   - Click Finish
+3. Run src/main/Main.java
+
+🎯 How to Play
+- Use WASD keys to move the player
+- Collect keys to open doors
+- Find boots to increase movement speed
+- Reach the treasure chest to win
+- Press T to toggle debug mode
+
+🗺️ Map Creation
+Maps are stored in the res/maps directory as text files. Each number represents a different tile:
+0: Grass
+1: Wall
+2: Water
+3: Earth
+4: Tree
+5: Sand
+
+
+📁 Project Structure
+
+```
+src/
+├── main/           # Core game systems
+├── entity/         # Player and entity classes
+├── object/         # Game objects (items, etc.)
+├── tile/           # Tile system and map management
+└── res/
+    ├── player/     # Player sprites
+    ├── tiles/      # Tile images
+    ├── objects/    # Object sprites
+    ├── maps/       # Map files
+    └── sound/      # Music and sound effects
+```
+
+🛠️ Built With
+- Java
+- AWT/Swing for graphics
+- Java Sound API for audio
+
+🤝 Contributing
+1. Fork the repository
+2. Create a new branch (git checkout -b feature/amazing-feature)
+3. Commit your changes (git commit -m 'Add amazing feature')
+4. Push to the branch (git push origin feature/amazing-feature)
+5. Open a Pull Request
+
+📝 License
+This project is licensed under the MIT License - see the LICENSE.md file for details
