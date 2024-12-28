@@ -1,9 +1,9 @@
-2D Adventure Game
+## 2D Adventure Game
 
 
 A classic top-down 2D adventure game built in Java, featuring tile-based movement, object interaction, and retro-style graphics.
 
-🎮 Features
+## 🎮 Features
 - Tile-based world exploration
 - Player movement with collision detection
 - Collectable items (keys, boots)
@@ -12,11 +12,11 @@ A classic top-down 2D adventure game built in Java, featuring tile-based movemen
 - Real-time UI displaying inventory and game time
 - Debug mode for development
 
-🔧 Prerequisites
+## 🔧 Prerequisites
 - Java JDK 17 or higher
 - Eclipse IDE (recommended) or any Java IDE
 
-🚀 Installation
+## 🚀 Installation
 1. Clone the repository
    git clone https://github.com/yourusername/2d-adventure-game.git
 2. Open the project in Eclipse:
@@ -25,14 +25,14 @@ A classic top-down 2D adventure game built in Java, featuring tile-based movemen
    - Click Finish
 3. Run src/main/Main.java
 
-🎯 How to Play
+## 🎯 How to Play
 - Use WASD keys to move the player
 - Collect keys to open doors
 - Find boots to increase movement speed
 - Reach the treasure chest to win
 - Press T to toggle debug mode
 
-🗺️ Map Creation
+## 🗺️ Map Creation
 Maps are stored in the res/maps directory as text files. Each number represents a different tile:
 0: Grass
 1: Wall
@@ -42,7 +42,7 @@ Maps are stored in the res/maps directory as text files. Each number represents 
 5: Sand
 
 
-📁 Project Structure
+## 📁 Project Structure
 
 ```
 src/
@@ -58,17 +58,17 @@ src/
     └── sound/      # Music and sound effects
 ```
 
-🛠️ Built With
+## 🛠️ Built With
 - Java
 - AWT/Swing for graphics
 - Java Sound API for audio
 
-🤝 Contributing
+## 🤝 Contributing
 1. Fork the repository
 2. Create a new branch (git checkout -b feature/amazing-feature)
 3. Commit your changes (git commit -m 'Add amazing feature')
 4. Push to the branch (git push origin feature/amazing-feature)
 5. Open a Pull Request
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License - see the LICENSE.md file for details
